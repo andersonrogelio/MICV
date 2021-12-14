@@ -3,10 +3,11 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 25em;
+    height: 24em;
 }
 .posicion_cart{
-    margin-top: 15em;
+    /*margin-top: 17em;*/
+    margin-top: 50%;
 
     
 }
