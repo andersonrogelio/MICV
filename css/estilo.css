@@ -1,3 +1,4 @@
+/*-------------------Estilo index------------------------*/
 .image_portada{
     background-image: url(../img/portada.jpg);
     background-position: center center;
@@ -15,6 +16,7 @@
     display: flex;
     justify-content: center;
 }
+/*-----------------fondos de pantalla de spanish----------------------------*/
 .photo1{
     background-image: url(../img/fondo1.jpg);
     background-position: center center;
@@ -98,4 +100,35 @@
     font-weight: 500;
     text-decoration: none;
     color: #3498db;
+}
+
+/*---------------Contenedores personalizados-----------------------------*/
+.contendor_info{
+    margin-top: 44px;
+    border-radius: 8px;
+    opacity: 0.9;
+}
+.p1{
+    background-color: white;
+}
+.p2{
+    /*background-color: indigo;*/
+    background-color: lightcoral;
+    height:39em;
+}
+
+/*-----------Modal-------------------*/
+.posicion_modal{
+margin-top: 7em; /*14 es un tercio de 42*/
+}
+
+/*----------------Carousel-----------------*/
+.image_carousel{
+    width: 256px;
+    height: 256px;
+}
+
+.caja_texto_oscura{
+    background-color: grey;
+    opacity: 0.7;
 }
