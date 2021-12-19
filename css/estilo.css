@@ -17,14 +17,50 @@
     justify-content: center;
 }
 /*-----------------fondos de pantalla de spanish----------------------------*/
-.photo1{
-    background-image: url(../img/fondo1.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    height: 42em;
-}
+@media  (min-width: 922px) and (max-width: 1400px) {
+    .photo1{
+        background-image: url(../img/fondo1.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        height: 42em;
+    }
+  }
+@media  (min-width: 768px) and (max-width: 992px) {
+    .photo1{
+        background-image: url(../img/fondo1.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        height: 55em;
+    }
+  }
+
+  @media  (min-width: 576px) and (max-width: 768px) {
+    .photo1{
+        background-image: url(../img/fondo1.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        height: 55em;
+    }
+  }
+  @media (max-width: 576px) {
+    .photo1{
+        background-image: url(../img/fondo1.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        height: 55em;
+    }
+  }
+
+
+
 .photo2{
     background-image: url(../img/fondo2.png);
     background-position: center center;
@@ -114,7 +150,13 @@
 .p2{
     /*background-color: indigo;*/
     background-color: lightcoral;
-    height:39em;
+    height:36em;
+}
+.p4{
+    background-color: orange;
+    height: 5em;
+    border-radius: 8px;
+    opacity: 0.9;
 }
 
 /*-----------Modal-------------------*/
