@@ -17,7 +17,10 @@
     justify-content: center;
 }
 /*-----------------fondos de pantalla de spanish----------------------------*/
-@media  (min-width: 922px) and (max-width: 1400px) {
+/*@media (min-width:1200px) {
+    
+}*/
+@media  (min-width: 922px) {
     .photo1{
         background-image: url(../img/fondo1.jpg);
         background-position: center center;
@@ -26,7 +29,20 @@
         background-size: cover;
         height: 42em;
     }
-  }
+  
+  .photo2{
+    background-image: url(../img/fondo2.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 42em;
+    }
+    .p2{
+        background-color: lightcoral;
+        height:37em;
+    }
+}
 @media  (min-width: 768px) and (max-width: 992px) {
     .photo1{
         background-image: url(../img/fondo1.jpg);
@@ -36,8 +52,19 @@
         background-size: cover;
         height: 55em;
     }
+    .photo2{
+        background-image: url(../img/fondo2.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        height: 70em;
+    }
+    .p2{
+        background-color: lightcoral;
+        height:37em;
+    }
   }
-
   @media  (min-width: 576px) and (max-width: 768px) {
     .photo1{
         background-image: url(../img/fondo1.jpg);
@@ -47,6 +74,19 @@
         background-size: cover;
         height: 55em;
     }
+    .photo2{
+        background-image: url(../img/fondo2.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        height: 70em;
+    }
+    .p2{
+        background-color: lightcoral;
+        height:37em;
+    }
+  
   }
   @media (max-width: 576px) {
     .photo1{
@@ -57,18 +97,21 @@
         background-size: cover;
         height: 55em;
     }
+    .photo2{
+        background-image: url(../img/fondo2.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        height: 90em;
+    }
+    .p2{
+        background-color: lightcoral;
+        height:44em;
+    }
   }
 
 
-
-.photo2{
-    background-image: url(../img/fondo2.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    height: 44em;
-}
 .photo3{
     background-image: url(../img/fondo3.jpg);
     background-position: center center;
@@ -147,11 +190,11 @@
 .p1{
     background-color: white;
 }
-.p2{
-    /*background-color: indigo;*/
+/*.p2{
+    
     background-color: lightcoral;
-    height:36em;
-}
+    height:37em;
+}*/
 .p4{
     background-color: orange;
     height: 5em;

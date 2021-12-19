@@ -197,7 +197,7 @@
     <div class="photo2"> <!--Contenedor de info academica-->
         <div class="container">
           <div class="row justify-content-center">
-            <div class="col-6">
+            <div class="col-12 col-lg-6">
               <div class="contendor_info p2">
                 <p class=" text-white text-center fs-4">Formación:</p>
                 <div class="row align-items-center justify-content-center"> <!--Cuando estoy usando una clase row y centrandola para poder usar el modal debo de colocar el boton dentro de mi row y la ventana afuera para que no le afecten los estilos que le coloco a mi row eso si lo hago con boostrap-->
@@ -251,20 +251,26 @@
 
              <!---->
             </div>
-            <div class="col-6 mt-5 ">
-              <div class="row justify-content-center">
-                <div class="col-5 " >
-                  <img src="img/Instituciones/Jap.png" alt="Jovenes a Programar" class="rounded-circle border border-2 border-dark" >
+            <div class="col-12  col-lg-6 mt-5 ">
+              <div class="row row-lg-2 mx-5 mx-lg-5 mx-xl-0 justify-content-center">
+                <div class="col-12 col-sm-5 col-md-5 col-lg-12 col-xl-5 " >
+                  <img src="img/Instituciones/Jap 200px.png" alt="Jovenes a Programar" class="rounded-circle border border-2 border-dark" >
                 </div>
-                <div class="col-5 ">
-                  <img src="img/Instituciones/Fing con contorno blanco.png" alt="Facultad de Ingeniería" class="rounded-circle border border-2 border-dark">
+                <div class="col-12 col-sm-5 col-md-5 col-lg-12 col-xl-5">
+                  <img src="img/Instituciones/Fing con contorno blanco 200px.png" alt="Facultad de Ingeniería" class="rounded-circle border border-2 border-dark">
                 </div>
+                <!---->
+                <div class="col-12 col-sm col-md col-lg-12 col-xl">
+                  <img src="img/Instituciones/Consejo Profesional 200px.png" alt="Consejo de Educación Técnico Profesional" class="d-block mx-sm-auto mx-md-auto mx-lg-0 mx-xl-auto rounded-circle border border-2 border-dark">
+                </div>
+                
+                <!---->
               </div>
-              <div class="row ">
-                <div class="col">
-                  <img src="img/Instituciones/Consejo Profesional.png" alt="Consejo de Educación Técnico Profesional" class="d-block mx-auto rounded-circle border border-2 border-dark">
+              <!--<div class="row ">
+                <div class="col col-lg-12 col-xl">
+                  <img src="img/Instituciones/Consejo Profesional.png" alt="Consejo de Educación Técnico Profesional" class="d-block mx-auto mx-lg-0 mx-xl-auto rounded-circle border border-2 border-dark">
                 </div>
-              </div>
+              </div>-->
               <!--Intento de hacer lo mismo de ariba solo que responsive-->
               <!--<div class="container h-100 align-items-center justify-content-center w-100">
                 <div class="d-block h-50">
@@ -355,13 +361,15 @@
           </div>
           <div class="col h-50">
           <div class="row h-100 ">
-            <div class="container-flued h-auto mb-3">
-              <select class="form-select" aria-label="Default select example" id="selectorpreoyectos" onchange="cargar_Proyectos()">
-                <option value="0" selected>Seleccione un proyecto para visualizar</option>
-                <option value="1">Obligatorio de Jap</option>
-              </select>
-              <div class="container w-75 h-75" id="mostrarproyecto" >
-              </div>
+            <div class="col">
+              <div class="container-flued h-auto mb-3">
+                <select class="form-select" aria-label="Default select example" id="selectorpreoyectos" onchange="cargar_Proyectos()">
+                  <option value="0" selected>Seleccione un proyecto para visualizar</option>
+                  <option value="1">Obligatorio de Jap</option>
+                </select>
+                <div class="container w-75 h-75" id="mostrarproyecto" >
+                </div>
+            </div>
             </div>
           </div>
           </div>
