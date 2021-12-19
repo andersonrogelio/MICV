@@ -21,6 +21,5 @@ function cargar_Proyectos() {
 
 
 document.addEventListener("DOMContentLoad",function(e){
-console.log(arregloProyectos);
-console.log(document.getElementById("selectorpreoyectos").value);
+
 });
